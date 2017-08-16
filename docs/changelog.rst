@@ -5,6 +5,10 @@ CHANGELOG
 2.14.2.dev0
 -------------------
 
+**New features**
+
+* Sensitive Areas
+
 **Bug fixes**
 
 * Include POIs to compute map screenshot zoom level

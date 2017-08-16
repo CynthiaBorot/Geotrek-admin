@@ -285,6 +285,7 @@ INSTALLED_APPS = PROJECT_APPS + (
     'geotrek.tourism',
     'geotrek.flatpages',
     'geotrek.feedback',
+    'geotrek.sensitivity',
 )
 
 SERIALIZATION_MODULES = {
@@ -522,6 +523,7 @@ TRAIL_MODEL_ENABLED = True
 TREKKING_TOPOLOGY_ENABLED = True
 FLATPAGES_ENABLED = True
 TOURISM_ENABLED = True
+SENSITIVITY_ENABLED = True
 
 TREK_POI_INTERSECTION_MARGIN = 500  # meters (used only if TREKKING_TOPOLOGY_ENABLED = False)
 TOURISM_INTERSECTION_MARGIN = 500  # meters (always used)
